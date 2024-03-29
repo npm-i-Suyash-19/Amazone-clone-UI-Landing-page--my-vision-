@@ -1,0 +1,30 @@
+*{
+    transition: 0.3s ease-out;
+    box-sizing: border-box;
+}
+#upper-footer{
+    padding-top: 10vh;
+    padding-bottom: 7vh;
+    background-color: #D4D4D4;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+#upper-footer-links{
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+}
+#upper-footer-links h6{
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+#upper-footer-links a{
+    text-decoration: none;
+    font-size: 0.9vw;
+}
+#upper-footer{
+    margin-top: 10vh;
+}
+
